@@ -1,0 +1,131 @@
+/*CSS DOCUMENT */
+
+
+body {
+	background-color: #fafafa;
+	color: #333333;
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+div.container {
+	max-width: 60em;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0; 
+	padding:0; 
+	font-size: 1em; 
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.8em; 
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 0.4em;
+	color: rgb(51,52,143);
+}
+
+h2 {
+	font-size: 1.8em; 
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 0.6em;
+	margin-top: 1.5em;
+}
+
+h3 {
+	font-size: 1.5em; 
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+.history-container {
+    display: flex;
+    gap: 3.75em;
+    align-items: flex-start;
+}
+
+.history-column {
+    flex: 1;
+	padding-bottom: 1.5em;
+}
+
+.didot {
+	background-color: rgba(51,52,143, 0.12);
+    padding: 2em;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+}
+
+.bodoni {
+    background-color: rgba(84,147,75, 0.12);
+    padding: 2em;
+    border-radius: 0.5em;
+}
+
+.didot h3 {
+    color:rgb(51,52,143);
+}
+
+.bodoni h3 {
+    color: rgb(84,147,75);
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+}
+
+.image-grid figure {
+    display: grid;
+    grid-template-rows: 18em auto;
+    margin: 0;
+    text-align: left;
+    font-size: 0.85em;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.image-grid figcaption {
+    margin-top: 0.5em;
+}
+
+.didot-examples {
+    background-color: rgba(51,52,143, 0.12);
+    padding: 2em;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+}
+
+.bodoni-examples {
+    background-color: rgba(84,147,75, 0.12);
+    padding: 2em;
+    border-radius: 0.5em;
+}
